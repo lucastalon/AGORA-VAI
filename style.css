@@ -1,0 +1,888 @@
+body {
+    background-color: #000000;
+    margin: 0 auto;
+    width: 100%;
+    
+}
+
+#part1 {
+    float: left;
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background-color: #131313;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100%;
+    color: aqua;
+}
+
+.logo {
+    width: 250px;
+    height: 200px;
+    background-color: #131313;
+}
+
+.logo img {    
+    position: relative;
+    top: 15%;
+    left: 20%;
+    
+}
+
+
+        .sidebar {
+           
+            
+            
+}
+
+    
+        .navbar {
+            width: 250px;
+            height: 570px;
+            background-color: #131313;
+            margin-bottom: 0px;
+        }
+
+
+
+                    .navbar ul{
+                        padding-left: 0px;
+                        margin-bottom: 0px;
+                        position: relative;
+                        top: 25%;                        
+                    }
+    
+    
+                    .navbar li{
+                        list-style: none;
+                        font-weight: bold;
+                        font-size: 23px;
+                        font-family: BebasRegular;
+                        text-align: center;
+                        padding-bottom: 0px;
+                    }
+
+                        .inicio a {
+                            text-decoration: none;
+                            border-bottom: 2px solid #000;
+                            padding-top: 13px;
+                            letter-spacing: 8px;
+                            color: #fff;
+							display: inline-block;
+							vertical-align: middle;
+							-webkit-transform: perspective(1px) translateZ(0);
+							transform: perspective(1px) translateZ(0);
+                        }
+
+                        .inicio a:hover {
+                              display: inline-block;
+							  vertical-align: middle;
+							  -webkit-transform: perspective(1px) translateZ(0);
+							  transform: perspective(1px) translateZ(0);
+							  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+							  position: relative;
+							  overflow: hidden;
+						
+
+                        }
+						.inicio a:before {
+						  content: "";
+						  position: absolute;
+						  z-index: -1;
+						  left: 51%;
+						  right: 51%;
+						  bottom: 0;
+						  background: #ffB400;
+						  height: 4px;
+						  -webkit-transition-property: left, right;
+						  transition-property: left, right;
+						  -webkit-transition-duration: 0.2;
+						  transition-duration: 0.2s;
+						  -webkit-transition-timing-function: ease-out;
+						  transition-timing-function: ease-out;
+						}
+						.inicio a:hover:hover:before, .inicio a:hover:focus:before, .inicio a:hover:active:before {
+						  left: 0;
+						  right: 0;
+						}
+
+                        
+
+                        .cardapio a {
+                            text-decoration: none;
+                            border-bottom: 2px solid #000;
+                            padding-top: 13px;
+                            letter-spacing: 8px;
+                            color: #fff;							
+							display: inline-block;
+							vertical-align: middle;
+							-webkit-transform: perspective(1px) translateZ(0);
+							transform: perspective(1px) translateZ(0);
+                        }
+
+                        .cardapio a:hover {
+                            display: inline-block;
+							vertical-align: middle;
+							-webkit-transform: perspective(1px) translateZ(0);
+							transform: perspective(1px) translateZ(0);
+							box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+							position: relative;
+							overflow: hidden;
+
+                        }
+						.cardapio a:before {
+						  content: "";
+						  position: absolute;
+						  z-index: -1;
+						  left: 51%;
+						  right: 51%;
+						  bottom: 0;
+						  background: #ffB400;
+						  height: 4px;
+						  -webkit-transition-property: left, right;
+						  transition-property: left, right;
+						  -webkit-transition-duration: 0.2;
+						  transition-duration: 0.2s;
+						  -webkit-transition-timing-function: ease-out;
+						  transition-timing-function: ease-out;
+						}
+						.cardapio a:hover:hover:before, .cardapio a:hover:focus:before, .cardapio a:hover:active:before {
+						  left: 0;
+						  right: 0;
+						}
+
+
+                        .molotov a {
+                            text-decoration: none;
+                            border-bottom: 2px solid #000;
+                            padding-top: 13px;
+                            letter-spacing: 8px;                        
+                            color: #fff;							
+							display: inline-block;
+							vertical-align: middle;
+							-webkit-transform: perspective(1px) translateZ(0);
+							transform: perspective(1px) translateZ(0);
+                        }
+
+                        .molotov a:hover {
+                              display: inline-block;
+							  vertical-align: middle;
+							  -webkit-transform: perspective(1px) translateZ(0);
+							  transform: perspective(1px) translateZ(0);
+							  box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+							  position: relative;
+							  overflow: hidden;
+
+                        }
+						.molotov a:before {
+						  content: "";
+						  position: absolute;
+						  z-index: -1;
+						  left: 51%;
+						  right: 51%;
+						  bottom: 0;
+						  background: #ffB400;
+						  height: 4px;
+						  -webkit-transition-property: left, right;
+						  transition-property: left, right;
+						  -webkit-transition-duration: 0.2;
+						  transition-duration: 0.2s;
+						  -webkit-transition-timing-function: ease-out;
+						  transition-timing-function: ease-out;
+						}
+						.molotov a:hover:hover:before, .molotov a:hover:focus:before, .molotov a:hover:active:before {
+						  left: 0;
+						  right: 0;
+						}
+
+                        .contato a {
+                            text-decoration: none;
+                            border-bottom: 2px solid #000;
+                            padding-top: 13px;
+                            letter-spacing: 8px;
+                            color: #fff;							
+							display: inline-block;
+							vertical-align: middle;
+							-webkit-transform: perspective(1px) translateZ(0);
+							transform: perspective(1px) translateZ(0);
+                        }
+
+                        .contato a:hover {
+                           	  display: inline-block;
+							  vertical-align: middle;
+							  -webkit-transform: perspective(1px) translateZ(0);
+							  transform: perspective(1px) translateZ(0);
+							  box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+							  position: relative;
+							  overflow: hidden;
+
+                        }
+						.contato a:before {
+						  content: "";
+						  position: absolute;
+						  z-index: -1;
+						  left: 51%;
+						  right: 51%;
+						  bottom: 0;
+						  background: #ffB400;
+						  height: 4px;
+						  -webkit-transition-property: left, right;
+						  transition-property: left, right;
+						  -webkit-transition-duration: 0.2;
+						  transition-duration: 0.2s;
+						  -webkit-transition-timing-function: ease-out;
+						  transition-timing-function: ease-out;
+						}
+						.contato a:hover:hover:before, .contato a:hover:focus:before, .contato a:hover:active:before {
+						  left: 0;
+						  right: 0;
+						}
+
+    .delivery {
+        width: 210px;
+        height: 90px;
+        position: fixed;
+        left: 20px;
+        bottom: 0px;
+        border-radius: 50px;
+        border-width: medium;
+        border-style: outset;
+        border-color: #e4251c;
+        text-align: center;
+        line-height: 90px;
+        display: inline-block; 
+    }
+
+            }
+        .delivey:hover
+            {
+                background:#FF2400;
+                width:210px;
+                height:90px;
+}
+
+}
+
+
+
+                    .delivery a {
+                        text-decoration: none;
+                    }
+
+
+                     .delivery img {
+                        width: 50%;
+                        height: 70%;
+}
+                        
+
+            .picolor {
+                height: 80px;
+                width: 200px;
+                background-color: #131313;
+                border-radius: 50px;
+                position: fixed;
+                bottom: 20px;
+                left: 23px;
+                border-width: medium;
+                border-style: solid;
+                border-color: #e4251c;
+
+
+                background-image: url(../img/SIDEBAR/ifood-logo.png);
+                background-repeat: no-repeat;
+                background-size: 50%;
+                background-position: center;
+
+            } 
+
+                .picolor:hover {
+                    background-color: #e4251c;
+                    width: 200px;
+                    height: 180px;
+                    transition-duration: 1s;
+                }
+
+
+                    
+  
+.part2 {
+    width: calc(100% - 250px);
+    background-color: aquamarine;
+    height: 100%;
+    float: right;
+}
+
+    .imghome1 {
+        width: 100%;
+        height: 969px;
+        background-color: chartreuse;
+        float: right;
+}
+
+
+.brasa {
+    width: 50%;
+    height: 85px;
+    background-color: #ffb400;
+    position: absolute;
+    top: 50%;
+    left: 30%
+}
+
+.brasa h1 {
+    font-family: Russian;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: 2px;
+}
+    
+
+
+    .cardhome {
+        width: 100%;
+        height: 969px;
+        background-color: cyan;
+        background-image: url(../img/INICIO/div-cardapio.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        float: right;
+    }
+
+        .cardhome img {
+            height: 10%;
+            width: 10%;
+        }
+
+        .cardtxt {
+        float: right;
+        width: 40%;
+        height: 40%;
+        margin-top: 15%;
+    }
+
+        .cardtxt h1 {
+            font-family: Russian;
+            font-size: 140px;
+            color: #fff;
+            text-align: center;
+            letter-spacing: 5px;
+            margin-bottom: 0px;
+        }
+
+        .cardtxt h2 {
+            font-family: RobotoMedium;
+            font-size: 26px;
+            color: #fff;
+            text-align: center;
+            margin-top: 0px;
+            letter-spacing: 1px;
+        }
+
+    .confira {
+        margin-left: 28%;
+        width: 45%;
+        height: 20%;
+        margin-top: 5%;
+        border-width:medium;
+        border-style:solid;
+        border-color: #ffb400;
+    }
+
+
+.confira:hover {
+    
+    background: #ffb400;
+}
+
+
+.confira {
+            margin-left: 28%;
+            width: 45%;
+            height: 20%;
+            margin-top: 5%;
+            border-width:medium;
+            border-style:solid;
+            border-color: #ffb400;
+        }
+
+        .confira:hover{
+            
+            background-color: #ffb400;
+}
+
+        .confira a{
+            text-decoration: none;
+            color: #fff;
+            font-family: BebasBold;
+            font-size: 37px;
+            letter-spacing: 5px;
+    
+}
+
+.confira h1 {
+            font-family: RobotoRegular;
+            font-size: 37px;
+            color: #fff;
+            letter-spacing: 5px;
+            padding: 0px;
+            text-align: center;
+
+        }
+        
+
+        
+
+    .histhome {
+        width: 100%;
+        height: 969px;
+        background-color: crimson;
+        background-image: url(../img/INICIO/div-historia.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        float: right;
+    }
+
+        .histhome img {
+            width: 100%;
+            height: 100%;
+        }
+
+
+.histxt {
+        float: left;
+        width: 40%;
+        height: 40%;
+        margin-top: 15%;
+    }
+
+        .histxt h1 {
+            font-family: Russian;
+            font-size: 140px;
+            color: #fff;
+            text-align: center;
+            letter-spacing: 5px;
+            margin-bottom: 0px;
+        }
+
+        .histxt h2 {
+            font-family: RobotoMedium;
+            font-size: 26px;
+            color: #fff;
+            text-align: center;
+            margin-top: 0px;
+            letter-spacing: 1px;
+        }
+
+        .saibamais {
+            margin-left: 28%;
+            width: 45%;
+            height: 20%;
+            margin-top: 5%;
+            border-width:medium;
+            border-style:solid;
+            border-color: #ffb400;
+        }
+
+        .saibamais:hover{
+            
+            background-color: #ffb400;
+}
+
+        .saibamais a{
+            text-decoration: none;
+            color: #fff;
+    
+}
+            
+            
+
+        .saibamais h1 {
+            font-family: BebasBold;
+            font-size: 37px;
+            color: #fff;
+            letter-spacing: 5px;
+            padding: 0px;
+            text-align: center;
+
+        }
+
+    .ifoodhome {
+        width: 100%;
+        height: 969px;
+        background-color: #f3f3f3;
+        background-image: url(../img/INICIO/Div-Ifood.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        float: right;
+    }
+
+
+    .ifoodclick {
+        width: 24%;
+        height: 10%;
+        margin-top: 40%;
+        margin-left: 36%;
+        border-width:medium;
+        border-style:solid;
+        border-color: #fff;
+        
+    }
+
+    .ifoodclick h1{
+        font-family: BebasBold;
+        font-size: 55px;
+        color: #fff;
+        letter-spacing: 5px;
+        text-align: center;
+    
+    
+}
+
+    .ifoodclick:hover{
+        background-color: #e4251c;
+}
+
+
+    .ifoodclick a{
+        color: #fff;
+        text-decoration: none;
+    
+}
+
+
+
+.corposobre {
+    width: calc(100% - 250px);
+    background-color: #131313;
+    height: 100%;
+    float: right;
+}
+
+.imghist {
+        width: 100%;
+        height: 969px;
+        background-color: #131313;
+        float: right;
+    }
+
+        .imghist img {
+            background-image:image()
+        }
+
+.sobre1 {
+  width: 100%;
+  height: 800px;
+  background-color: #131313;
+  float:left;
+}
+
+.txt1 {
+  width: 55%;
+  height: 800px;
+  background-color: #131313;
+  float:right;
+	margin-right: 80px;
+
+  
+}
+
+.txt1 h1 {
+						font-family: BebasRegular;
+                        color: #ffffff;
+                        font-size: 30px;
+                        line-height: 74px;
+                        font-weight: bold;
+                        text-align: center;
+                        margin-top: 60px;
+						letter-spacing: 4px;
+}
+
+.txt1 p {
+						font-family: "Roboto Regular";
+                        color: #ffffff;
+                        font-size: 22px;
+                        line-height: 38px;
+                        font-weight: normal;
+                        text-align: justify;
+                        margin-top: 60px;
+						margin-left: 40px;
+						margin-right: 60px;
+}
+
+
+
+.img1 {
+  width: 40%;
+  height: 800px;
+  float: left;
+  background-color: #131313;
+  padding-left: 95px;
+
+    }
+.img1 img {
+	width: 85%;
+	height: 40%;
+	margin-top: 50px;
+	
+}
+
+.sobre2 {
+  width: 100%;
+  height: 800px;
+  background-color: #131313;
+   float: right;
+}
+
+.img2 {
+  width: 40%;
+  height: 800px;
+  float: right;
+  background-color: #131313;
+  padding-left: 95px;
+
+    }
+.img2 img {
+	width: 85%;
+	height: 40%;
+	margin-top: 50px;
+	
+}
+
+.txt2 {
+  width: 55%;
+  height: 800px;
+  background-color: #131313;
+  float:left;
+  margin-left: 80px;
+  
+}
+
+
+.txt2 h1 {
+						font-family: BebasRegular;
+                        color: #ffffff;
+                        font-size: 30px;
+                        line-height: 74px;
+                        font-weight: bold;
+                        text-align: center;
+                        margin-top: 60px;
+						margin-left: 60px;
+						margin-right: 50px;
+						letter-spacing: 4px;
+}
+.txt2 p {
+						font-family: "Roboto Regular";
+                        color: #ffffff;
+                        font-size: 22px;
+                        line-height: 38px;
+                        font-weight: normal;
+                        text-align: justify;
+                        margin-top: 60px;
+						margin-left: 60px;
+						margin-right: 40px;
+}
+
+
+
+.geral {
+    width: calc(100% - 250px);
+    background-color: aquamarine;
+    height: 100%;
+    float: right;
+}
+
+    
+.hamburgueres {
+  width: 100%;
+  height: 1000px;
+  background-color: #131313;
+  background-image: url("../img/CARDAPIO/Molotov55.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  float: right;
+}   
+
+.cheff {
+  width: 100%;
+  height: 1000px;
+  background-color: #131313;
+  background-image: url("../img/CARDAPIO/Molotov87.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  float: right;
+}   
+
+.porcoes {
+  width: 100%;
+  height: 1000px;
+  background-color: #131313;
+  background-image: url("../img/CARDAPIO/Molotov79.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  float: right;
+}   
+
+
+.sobremesas {
+  width: 100%;
+  height: 1000px;
+  background-color: #131313;
+  background-image: url("../img/CARDAPIO/Molotov54.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  float: right;
+}   
+
+.defumados {
+  width: 100%;
+  height: 1000px;
+  background-color: #131313;
+  background-image: url("../img/CARDAPIO/Molotov89.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  float: right;
+}   
+
+.card {
+  width: 100%;
+  height: 800px;
+  background-color: #131313;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  float: right;
+} 
+.card img {
+	width: 100%;
+  height: 100%;	
+	
+}
+
+.contatosm {
+    width: 100%;
+    height: 973px;
+    background-color: #131313;
+    float: right;
+}
+
+.contatosm h1 {
+    font-family: Russian;
+    font-size: 70px;
+    color: #fff;
+    text-align: center;
+    margin-top: 5%;
+    padding: 2px;
+    letter-spacing: 5px;
+}
+
+.contatosm h2 {
+    font-family: Russian;
+    font-size: 54px;
+    color: #000;
+    text-align: center;    
+    padding: 2px;
+}
+
+.socialm {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialm img {
+    width: 60px;
+    height: 60px;
+    margin-left: 35px;
+    margin-right: 20px;
+   }
+
+#iframe {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    top: 55%;
+    left: 51%;
+    margin-top: -150px;
+    margin-left:-200px;
+}
+
+.rodape {
+    width: calc(100% - 250px);
+    height: 150px;
+    background-color: #131313;
+    float: right;
+    text-align: center;
+}
+
+.footer {
+    width: 90%;
+    height: 110px;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-color: #131313;
+    text-align: center;
+}
+
+    .footerlogo{
+        width: 10%;
+        height: 80px;
+        float: left;
+
+        
+    }
+
+    .footerlogo img {
+        width: 150px;
+        height: 100px;
+    }
+
+            .footerlocal {
+                width: 75%;
+                height: 80px;
+                float: left;
+                text-align: center;
+            }
+
+            .footer h1 {
+                font-family: BebasBold;
+                font-size: 28px;
+                color: #fff;
+                text-align: center;
+                letter-spacing: 5px;
+            }
+
+            .footer h2 {
+                font-family: BebasRegular;
+                font-size: 14px;
+                color: #fff;
+                text-align: center;
+                letter-spacing: 3px;
+                
+            
+
+}
+
+    .footersocial {
+        width: 15%;
+        height: 80px;
+        float: right;
+        top: 0px;
+    }
+
+    .footersocial img {
+        width: 50px;
+        height: 50px;
+        margin-left: 15px;
+        float: right;
+}
+
